@@ -1,0 +1,25 @@
+{
+  "name": "hogbase-server",
+  "version": "1.0.0",
+  "description": "Realtime Database Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogbase/hogbase-server.git"
+  },
+  "keywords": [
+    "database",
+    "realtime",
+    "storage",
+    "distributed"
+  ],
+  "author": "Luke Venediger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hogbase/hogbase-server/issues"
+  },
+  "homepage": "https://github.com/hogbase/hogbase-server#readme"
+}
