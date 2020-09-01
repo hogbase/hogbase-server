@@ -7,5 +7,5 @@ Hogbase is a realtime, distributed database that's built with connected apps in 
 * Robust, horizontally scalable architecture
 * API compatibility with Google Firebase's Realtime Database
 
-# About Hogbase Application Server
-Hogbase Application Server is what clients connect to and use to interact with data stored in the engine.
+# About Hogbase Server
+Hogbase Server is what clients connect to and use to interact with data stored in the engine.
