@@ -4,7 +4,9 @@
   "description": "Realtime Database Server",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "standard": "standard '{bin,examples,lib,test}/**/*.js'",
+    "nyc": "npx cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 npx nyc --reporter=text-summary mocha --recursive test/",
+    "test": "npm run standard && npm run nyc"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,28 @@
   "bugs": {
     "url": "https://github.com/hogbase/hogbase-server/issues"
   },
-  "homepage": "https://github.com/hogbase/hogbase-server#readme"
+  "homepage": "https://github.com/hogbase/hogbase-server#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
+    "standard": "^14.3.4"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "text-summary"
+    ],
+    "cache": true
+  },
+  "standard": {
+    "globals": [
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "describe",
+      "it"
+    ]
+  }
 }
