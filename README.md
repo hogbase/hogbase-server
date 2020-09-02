@@ -1,6 +1,6 @@
 # Hogbase Database
 
-[![CircleCI](https://circleci.com/gh/hogbase/hogbase-server.svg?style=shield)
+![CircleCI](https://circleci.com/gh/hogbase/hogbase-server.svg?style=shield)
 
 Hogbase is a realtime, distributed database that's built with connected apps in mind. It's a highly-resilient database that supports the following features:
 
